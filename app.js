@@ -1,56 +1,3 @@
-// CHECKING INDEXES OF CHARACTERS
-var username = "Asim Ali";
-var i_index = [];
-
-console.log(username.indexOf("i"));
-
-for(var i = 0; i < username.length; i++){
-    if(username[i] == "i"){
-        i_index.push(i);
-    }
-}
-
-console.log(i_index);
-
-// CHECKING ROUND OF NUMBERS USING JS DEFAULT FUNCTIONS
-var num = 2.499;
-var num2 = 2.999;
-
-console.log(Math.round(num))
-console.log(Math.round(num2))
-
-console.log(Math.floor(num));
-console.log(Math.floor(num2));
-
-console.log(Math.ceil(num));
-console.log(Math.ceil(num2));
-
-// MAKING DICE USING RANDOM NUMBER FUNCTION
-var randomnum = Math.random()
-var dice = Math.ceil(randomnum * 6)
-console.log(dice)
-
-// GENRATING 0 TO 100 RANDOMLY
-var randomnum = Math.random()
-var dice = Math.ceil(randomnum * 100)
-console.log(dice)
-
-// GENERATING 0 TO 100 IN 10TH ORDERS RANDOMLY
-var randomnum = Math.random()
-var dice = Math.ceil(randomnum * 10)
-console.log(dice * 10)
-
-// INCREASING PROBABILITY OF 6
-var randomnum = Math.random()
-var dice = Math.ceil(randomnum * 10)
-if(dice >= 6){
-    console.log(6)
-}
-else{
-console.log(dice)
-}
-
-
 // TOSS GAME WITH SCORE USING JS
 var img = document.querySelector("#img")
 var msg = document.querySelector("#toss-msg")
@@ -82,9 +29,4 @@ function tossTheCoin(userpick) {
 
 }
 
-
-function colorpicker(){
-var x = document.querySelector("#color-picker").value;
-document.querySelector("#msg").innerHTML = x;
-}
 
