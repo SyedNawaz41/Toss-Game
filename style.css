@@ -1,0 +1,54 @@
+#coin-result {
+    width: 150px;
+    height: 150px;
+    display: none;
+}
+
+.btn {
+   border-radius: 10%;
+   background-color: #00ca3d;
+   border: none;
+   color: white;
+   padding: 12px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+}
+
+.btn2 {
+    border-radius: 10%;
+    background-color: #0086d3;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+ }
+
+ .btn3 {
+    border-radius: 10%;
+    background-color: #ff7300;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+ }
+
+ /* #toss-msg {
+    color: #00ca3d;
+
+ }
+
+ #toss-msg2 {
+    color: #ca0000;
+
+ } */
